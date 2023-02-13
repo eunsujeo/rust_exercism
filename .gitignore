@@ -2,4 +2,4 @@
 .git
 Cargo.lock
 .DS_Store
-./**/target/*
+/**/target/*

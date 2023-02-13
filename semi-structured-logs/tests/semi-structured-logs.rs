@@ -37,7 +37,7 @@ fn log_emits_error() {
 }
 
 #[test]
-#[cfg(feature = "add-a-variant")]
+//#[cfg(feature = "add-a-variant")]
 fn add_a_variant() {
     // this test won't even compile until the enum is complete, which is why it is feature-gated.
     assert_eq!(
